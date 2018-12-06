@@ -3,3 +3,4 @@
 *.dvi
 *.aux
 
+!helloworld_directory1/*.pdf
