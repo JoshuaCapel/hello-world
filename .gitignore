@@ -2,4 +2,11 @@
 *.log
 *.dvi
 *.aux
+*.swp
 
+#This will ignore all files in the ignoreMe directory
+/helloworld_directory1/ignoreMe/*
+
+#To stop ignorning files in the butKeepMe subdirectory you need to first to unignore the directory, and then unifnore the files inside
+!/helloworld_directory1/ignoreMe/butKeepMe/
+!/helloworld_directory1/ignoreMe/butKeepMe/*
